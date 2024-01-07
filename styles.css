@@ -112,6 +112,19 @@ nav a{
     font-weight: 700;
 }
 
+#what-i-do{
+    padding: 20px 150px; 
+}
+
+.skills-container{
+    display: flex;
+}
+
+.skill{
+    padding: 20px;
+    gap: 10px;
+}
+
 /* about section style */
 
 .section-title{
