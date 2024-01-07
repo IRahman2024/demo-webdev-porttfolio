@@ -11,13 +11,25 @@
     font-weight: 700;
     
 }
+#btn-new{
+    border-radius: 5px;
+    margin-left: 30px;
+    background: #FFF;
+    color: #FD6E0A;
+    text-align: center;
+    border: 0;
+    padding: 19px 58px;
+    font-size: 20px;
+    font-weight: 700;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*to transfer two items to different side*/
     align-items: center;
+    margin: 0px 200px;
 }
 .Nav-title{
     color: var(--Dark-01, #181818);
@@ -36,4 +48,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    /* align-items: center; */
+}
+.banner .profile-pic{
+    width: 500px;
 }
